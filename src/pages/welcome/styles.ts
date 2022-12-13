@@ -13,7 +13,7 @@ export const Content = styled.View`
     align-items: center;
 `;
 
-export const Footer = styled.View`
+export const Footer = styled.TouchableOpacity`
     ${({theme}) => css`
         height: 30%;
         padding: 20px;

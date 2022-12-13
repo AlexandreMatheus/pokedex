@@ -4,20 +4,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 import theme from './src/global/styles/theme';
 import { Welcome } from './src/pages/welcome';
+import {Home} from "./src/pages/Home";
+import {Routes} from "./src/routes";
 
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Welcome />
+      <Routes />
     </ThemeProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

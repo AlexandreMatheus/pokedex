@@ -6,9 +6,9 @@ type Props = {
     title: string;
 } & TouchableOpacityProps
 
-export function Buttom ({title}: Props) {
+export function Buttom ({title, ...rest}: Props) {
 
-    return <S.Container>
+    return <S.Container {...rest}>
         <S.Title>
             {title}
         </S.Title>
