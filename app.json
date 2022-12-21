@@ -1,11 +1,16 @@
 {
   "expo": {
-    "name": "pokedex",
+    "name": "Pokedex - REACT",
     "slug": "pokedex",
     "version": "1.0.0",
+    "sdkVersion": "46.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.xandoca.portfolio",
+      "versionCode": 1
+    }
   },
   "name": "pokedex"
 }
